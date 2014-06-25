@@ -29,4 +29,22 @@
 - (IBAction)webPage:(id)sender {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://zerolinux5.com/#/"]];
 }
+
+#pragma mark - PlayerDetailsViewControllerDelegate
+
+- (void)ProjectControllerDidBack:(ProjectController *)controller
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"projects"]) {
+        
+        UINavigationController *navigationController = segue.destinationViewController;
+        ProjectController *projectController = [navigationController viewControllers][0];
+        projectController.delegate = self;
+    }
+}
+
 @end

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ProjectController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <ProjectControllerDelegate>
 - (IBAction)webPage:(id)sender;
 
 @end

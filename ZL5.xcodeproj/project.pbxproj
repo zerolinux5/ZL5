@@ -24,6 +24,7 @@
 		EA997167195B5A0000F9C26A /* ZL5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA997166195B5A0000F9C26A /* ZL5Tests.m */; };
 		EA997172195B805900F9C26A /* TweetController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA997171195B805900F9C26A /* TweetController.m */; };
 		EA997174195B80FC00F9C26A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA997173195B80FC00F9C26A /* Social.framework */; };
+		EA997177195B864600F9C26A /* ProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA997176195B864600F9C26A /* ProjectController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		EA997170195B805900F9C26A /* TweetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetController.h; sourceTree = "<group>"; };
 		EA997171195B805900F9C26A /* TweetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetController.m; sourceTree = "<group>"; };
 		EA997173195B80FC00F9C26A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		EA997175195B864600F9C26A /* ProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectController.h; sourceTree = "<group>"; };
+		EA997176195B864600F9C26A /* ProjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 				EA99713F195B5A0000F9C26A /* Supporting Files */,
 				EA997170195B805900F9C26A /* TweetController.h */,
 				EA997171195B805900F9C26A /* TweetController.m */,
+				EA997175195B864600F9C26A /* ProjectController.h */,
+				EA997176195B864600F9C26A /* ProjectController.m */,
 			);
 			path = ZL5;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA997152195B5A0000F9C26A /* ViewController.m in Sources */,
+				EA997177195B864600F9C26A /* ProjectController.m in Sources */,
 				EA997172195B805900F9C26A /* TweetController.m in Sources */,
 				EA997149195B5A0000F9C26A /* AppDelegate.m in Sources */,
 				EA997145195B5A0000F9C26A /* main.m in Sources */,
