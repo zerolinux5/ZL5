@@ -22,6 +22,8 @@
 		EA99715D195B5A0000F9C26A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA99713C195B5A0000F9C26A /* UIKit.framework */; };
 		EA997165195B5A0000F9C26A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA997163195B5A0000F9C26A /* InfoPlist.strings */; };
 		EA997167195B5A0000F9C26A /* ZL5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA997166195B5A0000F9C26A /* ZL5Tests.m */; };
+		EA997172195B805900F9C26A /* TweetController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA997171195B805900F9C26A /* TweetController.m */; };
+		EA997174195B80FC00F9C26A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA997173195B80FC00F9C26A /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		EA997162195B5A0000F9C26A /* ZL5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZL5Tests-Info.plist"; sourceTree = "<group>"; };
 		EA997164195B5A0000F9C26A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA997166195B5A0000F9C26A /* ZL5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZL5Tests.m; sourceTree = "<group>"; };
+		EA997170195B805900F9C26A /* TweetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetController.h; sourceTree = "<group>"; };
+		EA997171195B805900F9C26A /* TweetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetController.m; sourceTree = "<group>"; };
+		EA997173195B80FC00F9C26A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA997174195B80FC00F9C26A /* Social.framework in Frameworks */,
 				EA99713B195B5A0000F9C26A /* CoreGraphics.framework in Frameworks */,
 				EA99713D195B5A0000F9C26A /* UIKit.framework in Frameworks */,
 				EA997139195B5A0000F9C26A /* Foundation.framework in Frameworks */,
@@ -103,6 +109,7 @@
 		EA997137195B5A0000F9C26A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA997173195B80FC00F9C26A /* Social.framework */,
 				EA997138195B5A0000F9C26A /* Foundation.framework */,
 				EA99713A195B5A0000F9C26A /* CoreGraphics.framework */,
 				EA99713C195B5A0000F9C26A /* UIKit.framework */,
@@ -122,6 +129,8 @@
 				EA997151195B5A0000F9C26A /* ViewController.m */,
 				EA997153195B5A0000F9C26A /* Images.xcassets */,
 				EA99713F195B5A0000F9C26A /* Supporting Files */,
+				EA997170195B805900F9C26A /* TweetController.h */,
+				EA997171195B805900F9C26A /* TweetController.m */,
 			);
 			path = ZL5;
 			sourceTree = "<group>";
@@ -254,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA997152195B5A0000F9C26A /* ViewController.m in Sources */,
+				EA997172195B805900F9C26A /* TweetController.m in Sources */,
 				EA997149195B5A0000F9C26A /* AppDelegate.m in Sources */,
 				EA997145195B5A0000F9C26A /* main.m in Sources */,
 			);
