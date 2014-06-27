@@ -73,4 +73,9 @@
     }
     [textView resignFirstResponder];
 }
+
+- (IBAction)Back:(id)sender {
+    [self.delegate TweetControllerDidBack:self];
+}
+
 @end

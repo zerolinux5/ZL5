@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D2809B37-D488-42F9-8165-822F45E10DA1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZL5</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>63B82DC7-3B39-4DF5-97D9-BB7E1FC8BCDD</key>
+		<string>ssh://github.com/zerolinux5/ZL5.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZL5.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>63B82DC7-3B39-4DF5-97D9-BB7E1FC8BCDD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/zerolinux5/ZL5.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>63B82DC7-3B39-4DF5-97D9-BB7E1FC8BCDD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>63B82DC7-3B39-4DF5-97D9-BB7E1FC8BCDD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZL5</string>
+		</dict>
+	</array>
+</dict>
+</plist>

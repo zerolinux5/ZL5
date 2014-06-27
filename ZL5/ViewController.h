@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "ProjectController.h"
+#import "TweetController.h"
 
-@interface ViewController : UIViewController <ProjectControllerDelegate>
+@interface ViewController : UIViewController <ProjectControllerDelegate, TweetControllerDelegate>
 - (IBAction)webPage:(id)sender;
 
 @end

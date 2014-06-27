@@ -29,7 +29,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="v7c-Zq-azQ" kind="modal" modalTransitionStyle="flipHorizontal" id="oEm-Ar-ydG"/>
+                                    <segue destination="v7c-Zq-azQ" kind="modal" identifier="resume" modalTransitionStyle="flipHorizontal" id="oEm-Ar-ydG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gp5-ct-KKM">
@@ -53,7 +53,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="JyD-Oj-Sh6" kind="modal" modalTransitionStyle="flipHorizontal" id="MQK-1W-5DL"/>
+                                    <segue destination="JyD-Oj-Sh6" kind="modal" identifier="tweet" modalTransitionStyle="flipHorizontal" id="MQK-1W-5DL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9a-Sq-Bgn">
@@ -221,7 +221,7 @@
                                 <rect key="frame" x="15" y="136" width="285" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -237,7 +237,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="About Me" id="X9s-J8-lsv"/>
+                    <navigationItem key="navigationItem" title="About Me" id="X9s-J8-lsv">
+                        <barButtonItem key="leftBarButtonItem" title="ZL5" id="NxA-Xn-RJa"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z29-8Y-8Yj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -291,7 +293,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Tweet" id="7KN-od-YIm"/>
+                    <navigationItem key="navigationItem" title="Tweet" id="7KN-od-YIm">
+                        <barButtonItem key="leftBarButtonItem" title="ZL5" id="9F1-pZ-wGc">
+                            <connections>
+                                <action selector="Back:" destination="BOL-MM-n0A" id="en8-Gu-y6s"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tweetTextBody" destination="bbG-xf-fSp" id="kUs-QN-aOs"/>
                     </connections>
