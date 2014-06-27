@@ -49,4 +49,8 @@
 - (IBAction)Back:(id)sender {
     [self.delegate ResumeControllerDidBack:self];
 }
+
+- (IBAction)ucsc:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://ucsc.edu/#/"]];
+}
 @end

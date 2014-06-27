@@ -18,5 +18,6 @@
 
 @property (nonatomic, weak) id <ResumeControllerDelegate> delegate;
 - (IBAction)Back:(id)sender;
+- (IBAction)ucsc:(id)sender;
 
 @end

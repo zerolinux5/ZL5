@@ -216,6 +216,9 @@
                                 <state key="normal" title="Computer Science BS: UCSC">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="ucsc:" destination="TSc-js-6QN" eventType="touchUpInside" id="mS6-5U-LDi"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pQv-0e-4n7">
                                 <rect key="frame" x="15" y="136" width="285" height="200"/>
