@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "ProjectController.h"
 #import "TweetController.h"
+#import "ResumeController.h"
 
-@interface ViewController : UIViewController <ProjectControllerDelegate, TweetControllerDelegate>
+@interface ViewController : UIViewController <ProjectControllerDelegate, TweetControllerDelegate, ResumeControllerDelegate>
 - (IBAction)webPage:(id)sender;
 
 @end

@@ -30,7 +30,7 @@
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://zerolinux5.com/#/"]];
 }
 
-#pragma mark - ProjectControllerDidBack and TweetControllerDidBack
+#pragma mark - ProjectControllerDidBack and TweetControllerDidBack and ResumeControllerDidBack
 
 - (void)ProjectControllerDidBack:(ProjectController *)controller
 {
@@ -38,6 +38,11 @@
 }
 
 - (void)TweetControllerDidBack:(TweetController *)controller
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)ResumeControllerDidBack:(ResumeController *)controller
 {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
@@ -50,6 +55,11 @@
         ProjectController *projectController = [navigationController viewControllers][0];
         projectController.delegate = self;
     } else if ([segue.identifier isEqualToString:@"tweet"]) {
+        
+        UINavigationController *navigationController = segue.destinationViewController;
+        ProjectController *projectController = [navigationController viewControllers][0];
+        projectController.delegate = self;
+    } else if ([segue.identifier isEqualToString:@"resume"]) {
         
         UINavigationController *navigationController = segue.destinationViewController;
         ProjectController *projectController = [navigationController viewControllers][0];
